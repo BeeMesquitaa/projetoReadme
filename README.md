@@ -1,6 +1,6 @@
 # 💻 Projeto aplicado á Informática: Site Pastor Abiel Pinnow. 
 
-# 📖 Sobre o projeto
+## 📖 Sobre o projeto:
 
 Este site é uma aplicação web construída durante a matéria de Projeto aplicado á Informática, na qual desenvolvemos um site para o Pastor Abiel Pinnow.
 
