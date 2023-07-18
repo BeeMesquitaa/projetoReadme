@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+/* Cabeçalho */
+header h1{
+font-size: 25px;
+color: rgb(255, 255, 255);
+font-family: 'Dancing Script', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #498cb8;
+    align-items: center;
+}
+
+header a{
+    text-align: center;
+    border-collapse: collapse;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover{
+    text-decoration:underline ;
+}
+/* Fim Cabeçalho */
+
+/* Topo */
+.Topo {
+    text-align: center;
+}
+
+.Topo h2 {
+    padding: 10px;
+    margin-top: 40px;
+}
+/* Fim Topo */
+
+/* MeioUM */
+.MeioUM {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.MeioUM img{
+    text-align: left;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid var(--rocketseat);
+    margin-bottom: 10px;
+}
+
+.MeioUM h2 {
+    padding: 10px;
+    color:#498cb8;
+    margin-top: 8px;
+}
+/* Fim MeioUM */
+
+/* MeioDO */
+.MeioDO {
+    text-align: center;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.MeioDO img{
+    text-align: left;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid var(--rocketseat);
+    margin-bottom: 10px;
+}
+
+.MeioDO h2 {
+    padding: 10px;
+    color:#498cb8;
+    margin-top: 8px;
+}
+/* Fim MeioDO */
+
+/* Footer */
+footer{
+    background-color: #498cb8;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+/* Fim Footer */
+
