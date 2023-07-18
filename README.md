@@ -28,8 +28,10 @@ A aplicação consiste em um site voltado para o seu trabalho e suas ferramentas
 
 # ✏️ Autores
 
-Bernardo Luiz Werner Mesquita,  https://www.linkedin.com/in/bernardo-mesquita-1277a8249/
-Luis Severo Serwazi da Silva,  https://www.linkedin.com/in/luis-henrique-severo-da-silva-133176225/
+Bernardo Luiz Werner Mesquita,
+Luis Severo Serwazi da Silva,
 Leonardo Bueno Martins.
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/bernardo-mesquita-1277a8249/
+ https://www.linkedin.com/in/luis-henrique-severo-da-silva-133176225/
+
