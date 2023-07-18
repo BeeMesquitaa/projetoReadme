@@ -1,6 +1,6 @@
-💻 # Projeto aplicado á Informática: Site Pastor Abiel Pinnow. 
+# 💻 Projeto aplicado á Informática: Site Pastor Abiel Pinnow. 
 
-# Sobre o projeto
+# 📖 Sobre o projeto
 
 Este site é uma aplicação web construída durante a matéria de Projeto aplicado á Informática, na qual desenvolvemos um site para o Pastor Abiel Pinnow.
 
@@ -21,13 +21,15 @@ A aplicação consiste em um site voltado para o seu trabalho e suas ferramentas
 ![UseCaseAbbiel](https://github.com/BeeMesquitaa/projetoReadme/assets/121141327/e80a6d70-02ff-4cfc-94a1-8091b6572757)
 
 
-# Tecnologias utilizadas
+# 🖱️ Tecnologias utilizadas
 ## Back end
 - HTML
 - CSS
 
-# Autor
+# ✏️ Autores
 
-Wellington Mazoni de Andrade
+Bernardo Luiz Werner Mesquita,  https://www.linkedin.com/in/bernardo-mesquita-1277a8249/
+Luis Severo Serwazi da Silva,  https://www.linkedin.com/in/luis-henrique-severo-da-silva-133176225/
+Leonardo Bueno Martins.
 
 https://www.linkedin.com/in/wmazoni
