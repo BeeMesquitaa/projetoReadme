@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+/* Cabeçalho */
+header h1{
+font-size: 25px;
+color: rgb(255, 255, 255);
+font-family: 'Dancing Script', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #498cb8;
+    align-items: center;
+}
+
+header a{
+    text-align: center;
+    border-collapse: collapse;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover{
+    text-decoration:underline ;
+}
+/* Fim Cabeçalho */
+
+/* Topo */
+.Topo {
+    background-image: url("https://img.elo7.com.br/product/zoom/1E7C84B/papel-de-parede-paisagem-montanhas-0004-adesivo-de-parede-decoracao-de-quarto-de-bebe.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.TE img{
+   margin: -3.8px;
+   transform: scaleX(-1);
+}
+.txt p{
+  font-size: 20px;
+}
+
+.txt h2 {
+    color: #085c94;
+}
+.txt {
+    text-align: center;
+}
+/* Fim Topo */
+
+/* Topicos */
+.topico {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    align-items: center;
+    margin: 23px;
+    text-align: center;
+}
+
+.topico td, 
+th{
+    padding: 8px;
+}
+/* Fim Topicos */
+
+/* Final Texto */
+.Final{
+    background-color: #ebebeb;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.Final h1{
+    color: #498cb8;
+}
+/* Fim Final */
+
+/* Footer */
+footer{
+    background-color: #498cb8;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+/* Fim Footer */
