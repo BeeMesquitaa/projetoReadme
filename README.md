@@ -18,29 +18,13 @@ A aplicação consiste em um site voltado para o seu trabalho e suas ferramentas
 ![telaSobr](https://github.com/BeeMesquitaa/projetoReadme/assets/121141327/b1ca8539-7a9c-4f69-ab6a-93d88e1223d0)
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+![UseCaseAbbiel](https://github.com/BeeMesquitaa/projetoReadme/assets/121141327/e80a6d70-02ff-4cfc-94a1-8091b6572757)
+hub.com/BeeMesquitaa/projetoReadme/assets/121141327/b1ca8539-7a9c-4f69-ab6a-93d88e1223d0)
 
 # Tecnologias utilizadas
 ## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
-
-# Como executar o projeto
-
-## Back end
-Pré-requisitos: Java 11
+- HTML
+- CSS
 
 ```bash
 # clonar repositório
