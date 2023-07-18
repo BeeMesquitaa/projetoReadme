@@ -1,4 +1,4 @@
-# Projeto aplicado á Informática: Site Pastor Abiel Pinnow. 
+💻 # Projeto aplicado á Informática: Site Pastor Abiel Pinnow. 
 
 # Sobre o projeto
 
@@ -19,40 +19,12 @@ A aplicação consiste em um site voltado para o seu trabalho e suas ferramentas
 
 ## Modelo conceitual
 ![UseCaseAbbiel](https://github.com/BeeMesquitaa/projetoReadme/assets/121141327/e80a6d70-02ff-4cfc-94a1-8091b6572757)
-hub.com/BeeMesquitaa/projetoReadme/assets/121141327/b1ca8539-7a9c-4f69-ab6a-93d88e1223d0)
+
 
 # Tecnologias utilizadas
 ## Back end
 - HTML
 - CSS
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
 
 # Autor
 
