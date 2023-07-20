@@ -1,7 +1,7 @@
 *{
     margin: 0;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
     padding-top: 0;
     padding-bottom: 0;
     box-sizing: border-box;
@@ -93,6 +93,11 @@ header a:hover{
 
 .Youtube {
     text-align: left;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .Youtube h2 {
@@ -101,9 +106,75 @@ header a:hover{
     color: #498cb8;
 }
 
+.Youtube img{
+    width: 300px;
+}
+
 footer{
     background-color: #498cb8;
     color: white;
     text-align: center;
     padding: 1%;
+}
+
+@media (max-width: 450px) {
+    * {
+        padding-left: 2px;
+        padding-right: 2px;
+        box-sizing: border-box;
+    }
+    
+    header h1 {
+        font-size: 12px;
+    }
+    
+     /* Topo */
+     .Topo {
+        background-size: cover;
+        background-position: top;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .TE img {
+        margin: -2px;
+        transform: none;
+    }
+
+    .txt p {
+        font-size: 18px;
+    }
+    /* Fim Topo */
+
+    /* Meio */
+    .Meio p {
+        margin: 20px;
+    }
+
+    .Meio h2 {
+        padding: 8px;
+    }
+    /* Fim Meio */
+
+    /* Final */
+    .Final h1 {
+        font-size: 20px;
+    }
+    /* Fim Final */
+
+    /* Youtube */
+    .Youtube h2 {
+        padding-left: 10px;
+    }
+
+    .Youtube img {
+        width: 100%;
+        max-width: 300px;
+    }
+    /* Fim Youtube */
+
+    footer {
+        font-size: 16px;
+    }
 }
