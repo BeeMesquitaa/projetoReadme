@@ -1,7 +1,7 @@
 *{
     margin: 0;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
     padding-top: 0;
     padding-bottom: 0;
     box-sizing: border-box;
@@ -38,40 +38,39 @@ header a:hover{
 /* Topo */
 .Topo {
     text-align: center;
+    background-color: #ebebeb;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 15px;
 }
 
 .Topo h2 {
     padding: 10px;
-    margin-top: 40px;
 }
 /* Fim Topo */
 
 /* MeioUM */
 .MeioUM {
+    margin-top: 10px;
     text-align: left;
     display: flex;
-    flex-direction:  row;
+    flex-direction: column;
     justify-content: space-between;
     padding-bottom: 25px;
 }
 
 .MeioUM img{
-    text-align: left;
+    margin: 0 auto;
     height: 200px;
     border-radius: 50%;
     border: 4px solid var(--rocketseat);
     margin-bottom: 10px;
 }
 
-.MeioUM img, h2 {
-    display: flex;
-    flex-direction:row;
-    /* border: 1px solid black; */
-}
-
 .MeioUM h2 {
     padding: 10px;
     color:#498cb8;
+    margin: 0 auto;
     margin-top: 8px;
 }
 /* Fim MeioUM */
@@ -80,26 +79,21 @@ header a:hover{
 .MeioDO {
     text-align: left;
     display: flex;
-    /* flex-direction:  row;
-    justify-content: space-between; */
+    flex-direction: column;
+    justify-content: space-between;
     padding-bottom: 25px;
 }
 
 .MeioDO img{
-    text-align: left;
+    margin: 0 auto;
     height: 200px;
     border-radius: 50%;
     border: 4px solid var(--rocketseat);
     margin-bottom: 10px;
 }
 
-.MeioDO img, h2 {
-    display: flex;
-    flex-direction:row;
-    /* border: 1px solid black; */
-}
-
 .MeioDO h2 {
+    margin: 0 auto;
     padding: 10px;
     color:#498cb8;
     margin-top: 8px;
@@ -114,3 +108,87 @@ footer{
     padding: 1%;
 }
 /* Fim Footer */
+
+@media (max-width: 450px) {
+    * {
+        padding-left: 2px;
+        padding-right: 2px;
+        box-sizing: border-box;
+    }
+    
+    header h1 {
+        font-size: 12px;
+    }
+    /* Topo */
+    .Topo h2 {
+        padding: 10px;
+        margin-top: 20px;
+    }
+    /* Fim Topo */
+
+    /* MeioUM */
+    .MeioUM {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding-bottom: 15px;
+        justify-content: center;
+    }
+
+    .MeioUM img {
+        height: 80px;
+        margin: 0 auto;
+        width: 80px;
+        margin-bottom: 8px;
+    }
+
+    .MeioUM h2 {
+        padding: 6px;
+        margin: 0 auto;
+        font-size: 16px;
+        margin-top: 6px;
+    }
+
+    .MeioUM p{
+        font-size: 12px;
+    }
+    /* Fim MeioUM */
+
+    /* MeioDO */
+    .MeioDO {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding-bottom: 15px;
+        justify-content: center;
+    }
+
+    .MeioDO img {
+        height: 80px;
+        margin: 0 auto;
+        width: 80px;
+        margin-bottom: 8px;
+    }
+
+    .MeioDO h2 {
+        padding: 6px;
+        margin: 0 auto;
+        font-size: 16px;
+        margin-top: 6px;
+    }
+
+    .MeioDO p{
+        font-size: 12px;
+    }
+    /* Fim MeioDO */
+    
+    
+    
+    
+    
+    
+    footer {
+        font-size: 16px;
+    }
+}
+
